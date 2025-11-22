@@ -1,0 +1,145 @@
+/* Blog Page Styles */
+
+.blog-hero {
+    background: var(--primary-teal);
+    color: var(--white);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.blog-hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+.blog-hero p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.blog-main {
+    padding: 80px 0;
+}
+
+.blog-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.blog-post {
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.blog-post img {
+    width: 100%;
+}
+
+.post-content {
+    padding: 40px;
+}
+
+.post-content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.post-content h2 a {
+    color: var(--dark-text);
+    transition: var(--transition);
+}
+
+.post-content h2 a:hover {
+    color: var(--primary-teal);
+}
+
+.post-meta {
+    font-size: 14px;
+    color: var(--light-text);
+    margin-bottom: 20px;
+}
+
+.post-meta a {
+    color: var(--primary-teal);
+    font-weight: 600;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 600;
+    color: var(--primary-yellow);
+}
+
+/* Sidebar */
+.sidebar .widget {
+    background: var(--light-gray);
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.sidebar .widget h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.sidebar .widget ul {
+    list-style: none;
+}
+
+.sidebar .widget ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar .widget ul li a {
+    color: var(--medium-text);
+}
+
+.sidebar .widget ul li a:hover {
+    color: var(--primary-teal);
+}
+
+/* Single Post Styles */
+.single-post-main {
+    padding: 80px 0;
+}
+
+.single-post-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.single-post-content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.single-post-content .post-meta {
+    margin-bottom: 40px;
+}
+
+.single-post-content .post-featured-image {
+    margin-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.single-post-content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+@media (max-width: 991px) {
+    .blog-layout {
+        grid-template-columns: 1fr;
+    }
+}

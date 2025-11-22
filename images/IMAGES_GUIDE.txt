@@ -1,0 +1,97 @@
+IMAGE REQUIREMENTS FOR NOBLE MISSION WEBSITE
+=============================================
+
+CURRENT STATUS:
+The website is currently using free open-source images from Unsplash.com
+These are placeholder images - replace with your own school photos before deploying live.
+
+REQUIRED IMAGES:
+----------------
+
+1. HERO SECTION IMAGE
+   - Filename: hero-bg.jpg
+   - Size: 1920 x 600 pixels (landscape)
+   - Subject: Children learning or playing together
+   - Style: Bright, welcoming, engaging
+   - Used in: noble-mission.html (Line 76)
+
+2. FEATURE CARD 1: EDUCATE
+   - Filename: educate.jpg
+   - Size: 800 x 600 pixels (landscape)
+   - Subject: Teacher helping child, classroom scene
+   - Style: Educational, supportive
+   - Used in: noble-mission.html (Line 116)
+
+3. FEATURE CARD 2: ENGAGE
+   - Filename: engage.jpg
+   - Size: 800 x 600 pixels (landscape)
+   - Subject: Parent/teacher engaging with child
+   - Style: Interactive, caring
+   - Used in: noble-mission.html (Line 131)
+
+4. FEATURE CARD 3: INSPIRE
+   - Filename: inspire.jpg
+   - Size: 800 x 600 pixels (landscape)
+   - Subject: Children playing, being creative
+   - Style: Joyful, inspiring, active
+   - Used in: noble-mission.html (Line 146)
+
+OPTIONAL IMAGES:
+----------------
+
+5. LOGO ICON (if you want custom logo)
+   - Current: SVG lighthouse icon (embedded in HTML)
+   - Alternative: Create PNG/SVG logo and replace lines 11-24 in HTML
+
+6. FAVICON
+   - Size: 32x32, 64x64, 128x128 pixels
+   - Format: ICO or PNG
+   - Add to HTML: <link rel="icon" href="images/favicon.ico">
+
+IMAGE GUIDELINES:
+-----------------
+
+✓ Use high-quality, professional photos
+✓ Ensure all images show diversity and inclusion
+✓ Compress images for web (use TinyPNG or similar)
+✓ Recommended format: JPG for photos, PNG for graphics
+✓ Keep file sizes under 500KB per image
+✓ Use consistent color tones across all images
+✓ Ensure images are copyright-free or properly licensed
+
+HOW TO REPLACE IMAGES:
+----------------------
+
+1. Place your images in this folder (images/)
+2. Name them according to the list above
+3. Open noble-mission.html in a text editor
+4. Replace the image URLs:
+
+   FROM: src="https://images.unsplash.com/photo-..."
+   TO:   src="images/your-image-name.jpg"
+
+Example:
+   Line 76: Change
+   <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1920&h=600&fit=crop"
+   TO:
+   <img src="images/hero-bg.jpg"
+
+WHERE TO GET IMAGES:
+--------------------
+
+Free stock photo sites (ensure proper licensing):
+- Unsplash.com
+- Pexels.com
+- Pixabay.com
+- Freepik.com
+
+Or commission a professional photographer for authentic images
+of your school, staff, and students (with proper permissions).
+
+IMPORTANT:
+----------
+If using images of children, ensure you have:
+✓ Parental/guardian consent
+✓ Model releases (if required)
+✓ Privacy policy compliance
+✓ Appropriate usage rights
